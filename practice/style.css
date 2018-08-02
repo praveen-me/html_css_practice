@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+div {
+    background-color: #ddd;
+    text-align: center;
+}
+
+#heading {
+    font-weight: 300;
+    color: crimson;
+}
+
+.para {
+    font-size: 25px;
+}
