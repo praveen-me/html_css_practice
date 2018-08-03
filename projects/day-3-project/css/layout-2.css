@@ -1,0 +1,44 @@
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.parent-div {
+    border : 2px solid #ddd;
+    width: 370px;
+    margin: 15px;
+}
+
+.no-border-child-div {
+    height: 100px;
+    background-color: darkcyan;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.one-px-border {
+    height: 100px;
+    background-color: greenyellow;
+    width: 100px;
+    border : 10px solid #000;
+    display: inline-block;
+    margin: 10px;   
+}
+
+.big-same-block {
+    border : 2px solid #ddd;
+    width: 430px;
+    margin: 15px;
+}
+
+.px-border {
+    height: 100px;
+    background-color: greenyellow;
+    width: 100px;
+    border : 10px solid #000;
+    display: inline-block;
+    margin: 10px;   
+}
+
