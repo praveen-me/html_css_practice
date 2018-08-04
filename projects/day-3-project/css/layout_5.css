@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+}
+
+/* Box Model CSS Starts */
+.center-it {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.padding-25 {
+    padding: 25px;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.margin-div {
+    background-color: lightcoral;
+    height: 300px;
+    display: inline-block;
+    width: 300px;    
+}
+
+.border-div {
+    background-color: #000;
+    height: 250px;
+}
+
+.padding-div {
+    background-color: #bada55;
+    height: 200px;
+}
+
+.content-div {
+    height: 150px;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+/* Color Section CSS Strats */
+
+.list{
+    padding: 0;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.colorbox {
+    display: inline-block;
+    margin: 25px;
+}
+
+.color-name {
+    display: inline-block;
+}
+
+.color {
+    height: 10px;
+    display: inline-block;
+    width: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.light-coral {
+    background-color: lightcoral;
+}
+
+.black {
+    background-color: #000;
+}
+
+.bada55 {
+    background-color: #bada55;
+}
+
+.aqua {
+    background-color: aqua;
+}

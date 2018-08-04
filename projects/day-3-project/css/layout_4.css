@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parent-div {
+    background-color: purple;
+    display: inline-block;
+    box-sizing: content-box;
+    width: 350px;
+    padding: 25px;
+}
+
+.child-div {
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 350px;
+    background-color: red;
+    color: #fff;
+    padding: 15px;
+    border-left: 20px solid green;
+    border-top: 20px solid blue;
+    border-right: 20px solid grey;
+    border-bottom: 20px solid  yellow;
+}
