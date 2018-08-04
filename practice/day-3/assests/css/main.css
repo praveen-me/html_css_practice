@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+header h1 {
+    font-color : #ddd;
+}
+
+h2,h3 {
+    color: dimgrey;
+}
+
+div p {
+    color: lightslategrey;
+    font-size: 20px;
+}
+
+article p {
+    font-size: 20px;
+}
+
+ul {
+    display: inline-block;
+    width: 200px;
+    padding: 0;
+}
+
+li.link {
+    list-style-type: none;
+    float: right;
+    margin: 15px;
+}
+
+ul li.link a {
+    text-decoration: none;
+    color: #dc143C;
+    border-radius: 5px;
+}
+
