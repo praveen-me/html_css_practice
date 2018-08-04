@@ -6,39 +6,31 @@ h3 {
 
 .parent-div {
     border : 2px solid #ddd;
-    width: 370px;
-    margin: 15px;
+    width: 560px;
 }
 
-.no-border-child-div {
+
+.parent-div-two {
+    box-sizing: content-box;
+}
+
+.parent-div-three {
+    box-sizing: content-box;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.box {
     height: 100px;
-    background-color: darkcyan;
-    width: 100px;
+    width: 160px;
+    background-color: cadetblue;
     display: inline-block;
+}
+
+.border-10 {
+    border: 10px solid #000;
     margin: 10px;
-}
-
-.one-px-border {
-    height: 100px;
-    background-color: greenyellow;
-    width: 100px;
-    border : 10px solid #000;
-    display: inline-block;
-    margin: 10px;   
-}
-
-.big-same-block {
-    border : 2px solid #ddd;
-    width: 430px;
-    margin: 15px;
-}
-
-.px-border {
-    height: 100px;
-    background-color: greenyellow;
-    width: 100px;
-    border : 10px solid #000;
-    display: inline-block;
-    margin: 10px;   
 }
 

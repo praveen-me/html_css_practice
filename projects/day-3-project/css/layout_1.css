@@ -33,55 +33,38 @@
 }
 
 /* Exercise 2 Style */
-.margin-div {
-    height: 150px;
-    width: 300px;
-    background-color: chocolate;
+ .margin-div {
+    width: 400px;
+    background-color: rgb(134, 68, 21);
     box-sizing: content-box;
-    padding: 25px 50px 25px 50px;
+    display: inline-block;
+    padding: 10px;
 }
 
-.padding-div {
-    height: 100px;
-    width: 200px;
-    background-color: red;
-    padding: 25px 50px 25px 50px;
-    box-sizing: content-box;
-}
 
 .content-div {
-    text-align: center;
-    width: 200px;
-    height: 100px;
+    border: 10px solid red;
+    padding: 20px;
     background-color: limegreen;
+    text-align: center;
     box-sizing: content-box;
-}
+    
+} 
 
 /* Exercise 3 Style */
 .border-margin-div {
-    height: 150px;
-    width: 300px;
-    background-color: chocolate;
+    width: 400px;
+    background-color: rgb(134, 68, 21);
     box-sizing: border-box;
     display: inline-block;
-    padding: 25px 50px 25px 50px;
+    padding: 10px;
 }
 
-.border-padding-div {
-    height: 100px;
-    width: 200px;
-    background-color: red;
-    box-sizing: border-box;
-    display: inline-block;
-    padding : 12.5px 25px 12.5px 25px;
-}
 
 .border-content-div {
-    text-align: center;
-    width: 150px;
-    height: 75px;
+    border: 10px solid red;
+    padding: 20px;
     background-color: limegreen;
+    text-align: center;
     box-sizing: border-box;
-    display: inline-block;
-    padding: 25px;
 }
