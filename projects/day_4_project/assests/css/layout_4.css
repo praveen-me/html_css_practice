@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    position: relative;
+}
+
+.box {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+    height: 700px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.no-scroll {
+    background-color: pink;
+    position: fixed;
+}
+
+.scroll {
+    height: 100%;
+    background-color: aquamarine;
+    float: right;
+}

@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+.block {
+    margin: 15px auto;
+}
+
+.inline-block {
+    width: 49.5%;
+    background-color: coral;
+    border: 1px solid firebrick;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+code {
+    background-color: burlywood;
+    border: 1px solid #927f67;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.float-block { 
+    width: 49.5%;
+    background-color: aquamarine;
+    border: 1px solid #00c2ff;
+    border-radius: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.width-100 {
+    width: 50%;
+    margin: 15px;
+}
+
+.no-margin {
+    margin: 0;
+}
