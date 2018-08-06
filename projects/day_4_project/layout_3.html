@@ -8,41 +8,43 @@
     <link rel="stylesheet" href="assests/css/layout_3.css">
 </head>
 <body>
-    <h1>Side By Side Positioning Demo</h1>
+    <div class="wrapper">
+        <h1>Side By Side Positioning Demo</h1>
+
+        <!-- Section 1 -->
+        <section class="block">
+            <div class="inline-block top"><p>These two divs are positioned next to one another using <code>display: inline-block;</code></p></div>
+            <div class="inline-block"><p>Notice the space between them. It occurs because of my carriage return in the HTML which I've used to keep the code organized. I've used a reset to insure no elements should have any default margins or padding. (I did add a bottom margin to make it easier to read.) This space is actually a space character rendererd just as it would be between two inline elements.</p></div>
+        </section>
     
-    <!-- Section 1 -->
-    <section class="block">
-        <div class="inline-block top"><p>These two divs are positioned next to one another using <code>display: inline-block;</code></p></div>
-        <div class="inline-block"><p>Notice the space between them. It occurs because of my carriage return in the HTML which I've used to keep the code organized. I've used a reset to insure no elements should have any default margins or padding. (I did add a bottom margin to make it easier to read.) This space is actually a space character rendererd just as it would be between two inline elements.</p></div>
-    </section>
-
-    <!-- Section 2  -->
-    <section class="block">
-        <div class="float float-block top">
-            <p>These two are positioned using <code>float: left;</code>.</p>
-        </div>
-        <div class="float-block float">
-            <p>You can see that, even though the elements are spaced in the code, the space is not actually rendered on the page. This may not be  a huge deal in these first examples, but...</p>
-        </div>
-    </section>
-
-    <!-- Section 3 -->
-    <section class="block">
-        <div class="inline-block width-100">
-            <p>What if I want my side-by-side elements to take up the full width of the parent element? I can set the width of each to 50%, right?</p>
-        </div><div class="inline-block width-100">
-            <p>Wrong! Because, together, the two inline block elements will add upto 100% of the available width, but that doesn't account for the space between.</p>
-        </div>
-    </section>
-
-    <!-- Section 4 -->
-    <section class="block">
-        <div class="float-block width-100 no-margin top">
-            <p>If I do same thing with floated elements...</p>
-        </div>
-        <div class="float-block width-100 no-margin">
-            <p>The two elements are side-by-side just as I intended and fill the entire width of the parent (which, in the case, is the same as the width of the viewport.)</p>
-        </div>
-    </section>
+        <!-- Section 2  -->
+        <section class="block">
+            <div class="float float-block top">
+                <p>These two are positioned using <code>float: left;</code>.</p>
+            </div>
+            <div class="float-block float">
+                <p>You can see that, even though the elements are spaced in the code, the space is not actually rendered on the page. This may not be  a huge deal in these first examples, but...</p>
+            </div>
+        </section>
+    
+        <!-- Section 3 -->
+        <section class="block">
+            <div class="inline-block width-100">
+                <p>What if I want my side-by-side elements to take up the full width of the parent element? I can set the width of each to 50%, right?</p>
+            </div><div class="inline-block width-100">
+                <p>Wrong! Because, together, the two inline block elements will add upto 100% of the available width, but that doesn't account for the space between.</p>
+            </div>
+        </section>
+    
+        <!-- Section 4 -->
+        <section class="block">
+            <div class="float-block width-100 no-margin top">
+                <p>If I do same thing with floated elements...</p>
+            </div>
+            <div class="float-block width-100 no-margin">
+                <p>The two elements are side-by-side just as I intended and fill the entire width of the parent (which, in the case, is the same as the width of the viewport.)</p>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

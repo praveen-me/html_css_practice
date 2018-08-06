@@ -6,6 +6,13 @@ h1 {
     margin: 15px auto;
 }
 
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ddd;
+    border-radius: 15px;
+}
+
 .inline-block {
     width: 49.5%;
     background-color: coral;
