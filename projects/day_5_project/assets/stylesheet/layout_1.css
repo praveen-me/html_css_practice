@@ -1,0 +1,52 @@
+/* Embed Font */
+@import url('https://fonts.googleapis.com/css?family=Muli|Roboto+Slab|Varela+Round');
+
+
+body {
+    background-color: #282e2b;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.container {
+    width: 700px;
+    margin: 15px auto;
+}
+
+.left-text {
+    float: left;
+    font-size: 20px;
+    color: #dc143C;
+}
+
+.right-text {
+    float: right;
+    color: #fff;
+    font-size: 20px;
+}
+
+.clear-fix:after, .clear-fix:before {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+
+}
+
+.para-section {
+    margin-top: 25px;
+}
+
+.para {
+    font-family: 'Varela Round', sans-serif;
+    color: #ccbeb9;
+}
+
+.two .para {
+    font-family: 'Muli', sans-serif;
+}

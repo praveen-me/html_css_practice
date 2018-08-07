@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+/* Header CSS */
+.header {
+    background-color: aqua;
+    height: 50px;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.nav-link {
+    width: 24.5%;
+    display: inline-block;
+    margin: auto auto;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 18px;
+    text-align: center;
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+
+/* Main Section CSS */
+.block {
+    margin: 50px auto;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+}
+.para {
+    margin: 15px auto;
+    color: #f00;
+    line-height: 15px;
+}
+
+.pics-collection {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.pic-container {
+    width: 24%;
+    display: inline-block;
+}
