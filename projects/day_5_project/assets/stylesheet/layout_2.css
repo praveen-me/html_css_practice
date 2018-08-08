@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: url('../images/background-img.jpg'), rgba(0,0,0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(0,0,0, 0.5);
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.block {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.small-block {
+    width: 31%;
+    height: 300px;
+    background-color: #dc143C;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1%;
+    border-radius: 5%;
+    text-align: center;
+    margin: 0 1%;
+    position: relative;
+}
+
+.gradient-linear {
+    background: linear-gradient(to right, #211e1e, #dc143C);
+    
+}
+
+.gradient-radial {
+    background: -webkit-radial-gradient(ellipse, #dc143C 39%,#211e1e);
+}
+
+.bg-image {
+    background: url('../images/1200x800.jpeg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: relative;
+}
+
+.middle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.overlay {
+    background: linear-gradient( #ff810045, #FF5722 );
+    border-radius: 50px;
+    opacity: 0.5;
+    height: 100%;
+}
+
+

@@ -1,0 +1,87 @@
+
+/* EMBED FONT */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+body {
+    padding-top: 100px;
+    background-color: #d4cea7;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+/* Header CSS Starts */
+.header {
+    background-color: #FF5722;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    /* list-style-type: none; */
+    width: 75%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.nav-block {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* Main Section CSS Starts */
+
+.section-one {
+    width: 80%;
+    margin : 15px auto;
+}
+
+.block {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1%;
+    background-color: #13719b;
+    border-radius: 5px;
+    box-shadow: 7px 9px 17px 6px #3f3939c2;
+}
+
+.ordered {
+    padding: 15px;
+}
+
+ol, ul {
+    display: inline-block;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.ordered-li {
+    margin: 5px;
+}
+
+.unordered {
+    padding: 15px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.custom-list {
+    list-style-type: none;
+}
+
+
