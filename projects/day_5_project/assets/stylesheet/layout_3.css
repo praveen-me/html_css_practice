@@ -1,48 +1,75 @@
 
 /* EMBED FONT */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Titillium+Web');
+
 
 
 body {
     padding-top: 100px;
     background-color: #d4cea7;
     font-family: 'Roboto Mono', monospace;
-
+    margin: 0;
 }
 
 /* Header CSS Starts */
 .header {
-    background-color: #FF5722;
-    padding: 25px;
+    background-color: rgba(255, 87, 34, 0.5);
     position: fixed;
     top: 0;
+    box-sizing: border-box;
     width: 100%;
+    height: 50px;
+    left: 0;
 }
 
 .nav {
     /* list-style-type: none; */
-    width: 75%;
+    width: 70%;
     display: inline-block;
     box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 
+.nav-bar {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
 .nav-block {
+    padding: 10px;
     display: inline-block;
-    width: 19%;
+    width: 18%;
+    box-sizing: border-box;
     text-align: center;
+    height: 100%;
+}
+
+.nav-block:hover {
+    background-color: #FFF;
+}
+
+.nav-link:hover {
+    color: #000;
 }
 
 .nav-link {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    display: inline-block;
+    width: 100%;
 }
+
 
 /* Main Section CSS Starts */
 
-.section-one {
-    width: 80%;
-    margin : 15px auto;
+.section {
+    width: 70%;
+    margin : 25px auto;
 }
 
 .block {
@@ -54,6 +81,7 @@ body {
     background-color: #13719b;
     border-radius: 5px;
     box-shadow: 7px 9px 17px 6px #3f3939c2;
+    vertical-align: middle;
 }
 
 .ordered {
@@ -82,6 +110,29 @@ li {
 
 .custom-list {
     list-style-type: none;
+    list-style-type: none;
+    padding: 27.5px;
+    margin: 0;
+}
+
+.custom-li {
+    background-image: url('../images/ok.png');
+    background-repeat: no-repeat;  
+    padding-left: 30px;
+    height: 25px;
+    margin: 2px;
 }
 
 
+/* Description LIst CSS */
+.description-data {
+    color: #793c10ab;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+/* Footer CSS */
+
+.footer {
+    background-color: olive;
+}
