@@ -3,8 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
-
-
 /* General CSS */
 body {
     padding: 0;
@@ -24,11 +22,6 @@ ol, ul {
 .container {
     padding-left: 30px;
     padding-right: 30px;
-}
-
-.row {
-    min-width: 960px;
-    padding: 66px 0 44px 0;
 }
 
 .col-1-3,.col-2-3 {
@@ -97,7 +90,7 @@ header {
 }
 
 .nav-link:hover  {
-    color: firebrick;
+    color: #fff;
 }
 
 header h1 {
@@ -128,13 +121,17 @@ header h1 {
     width: 100%;
 }
 
-p {
+.center {
     text-align: center;
 }
 
 .part-one-content-block {
     height: 250px;
     width: 100%;
+}
+
+.small-video-block {
+    position: relative;
 }
 
 .small-video {
@@ -154,7 +151,6 @@ p {
 
 .part-two h2 {
     font-family: 'Handlee', cursive;
-    text-align: center;
     padding: 10px;
     font-size: 35px;
     color: #fff;
@@ -165,5 +161,97 @@ p {
     width: 70%;
     margin: 0 auto;
     border: 25px solid #fff;
+    box-shadow: 0px 0px 16px 4px #695d5d;
+}
+
+/* Form Section CSS */
+.col-2-3 {
+    width: 49%;
+}
+
+.col-1-1 {
+    width: 100%;
+}
+
+.part-four {
+    background-color: aquamarine;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.form-container {
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 16px 3px #7d7474;
+}
+
+.form {
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-title {
+    margin: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.form-field {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    border: transparent;
+    border: 1px solid #9e9e9e75;
+    padding-left: 25px;
+}
+
+.big-text {
+    margin: 15px;
+    width: 95%;
+}
+
+.text-area {
+    height: 150px;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+
+.button {
+    width: 200px;
+    height: 45px;
+    background-color: #1f5234;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    font-size: 21px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.button:hover {
+    color: #1f5234;
+    background-color: #fff;
+    border: 1px solid #847575;
+    cursor: pointer;
+}
+
+/* Section Five  */
+.part-five {
+    background-color: #393737;
+    padding: 75px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 0;
+}
+
+.part-five iframe {
+    margin: 0 auto;
+    width: 100%;
 }
 /* Main CSS Starts Ends */
+
+/* Footer */
+footer {
+    background-color: #393737;
+}
