@@ -1,0 +1,45 @@
+.container {
+    width: 1000px;
+    margin: 0  auto;
+    background-color: #ddd;
+}
+
+div {
+   display: inline-block; 
+}
+
+.relative {
+    position: relative;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.block-section-one {
+    width: 300px;
+    height: 100px;
+    margin: 15px;
+    background-color: red;
+}
+
+.small-block-block-two {
+    height: 100px;
+    width: 150px;
+    background-color: lime;
+    margin: 15px;
+}
+
+.normal-block-block-two {
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    margin: 15px;
+}
+
+.big-block-block-two {
+    height: 450px;
+}
