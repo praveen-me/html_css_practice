@@ -18,9 +18,6 @@ ul,ol {
     box-sizing: border-box;
 }
 
-.col-half {
-    width: 49%;
-}
 
 .col-half, .col-1-3 {
     display: inline-block;
