@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Template Area - 1</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item sidebar-1">
+            <p>I am a sidebar #1</p>
+        </div>
+        <div class="item content">
+            <p>Lorem Ispum!!! I am the content.</p>
+        </div>
+        <div class="item sidebar-2">
+            <p>I am sidebar #2</p>
+        </div>
+        <div class="item footer">
+            <p>I am a footer.</p>
+        </div>
+    </div>
+
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 2fr 8fr 2fr;
+            grid-template-rows: 150px 150px 100px;
+            grid-template-areas: 
+            'sidebar-1 content sidebar-2'
+            'sidebar-1 content sidebar-2'
+            'footer footer footer'
+        }
+
+        .sidebar-1 {
+            grid-area: sidebar-1;
+        }
+
+        .content {
+            grid-area : content;
+        }
+
+        .sidebar-2 {
+            grid-area: sidebar-2;
+        }
+
+        .footer {
+            grid-area : footer;
+        }
+
+        @media (max-width : 700px) {
+            .container {
+                grid-template-areas: 
+                'sidebar-1 sidebar-1 sidebar-2'
+                'content content sidebar-2'
+                'footer footer footer'
+            }
+        }
+    </style>
+</body>
+</html>
