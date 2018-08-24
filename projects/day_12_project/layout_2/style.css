@@ -37,6 +37,17 @@ img {
     background-repeat: no-repeat !important;
 }
 
+.item1, .item8 {
+    background-color: #261a16;
+    color: #fff;
+    padding: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
+}
+
 .item1 {
     grid-area: 1 / 1 / span 2 / span 2;
 }
@@ -97,7 +108,7 @@ img {
 @media screen and (max-width : 500px) {
     .container {
         grid-template-columns: 1fr;
-        width: 100vw;
+        width: 100%;
         grid-template-rows: repeat(12, minmax(300px, 1fr));
     }
 
