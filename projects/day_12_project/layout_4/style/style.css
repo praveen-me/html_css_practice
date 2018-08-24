@@ -1,0 +1,75 @@
+/* Embed Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+.center {
+    text-align: center;
+}
+
+.color__white {
+    color: #fff;
+}
+
+
+/* Haeder */
+header {
+    display: grid;
+    background-color: #33566a;
+}
+
+/* Navigation */
+.grid {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 520px;
+}
+
+nav {
+    background: chocolate;
+}
+
+section {
+    background: #f403bb;
+}
+
+main {
+    padding-left: 25px;
+}
+
+footer {
+    height: 69px;
+    background: lime;
+    display: grid;
+}
+
+footer h1 {
+    margin: 0;
+    align-self: center;
+}
+
+@media screen and (max-width : 500px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+
+}
