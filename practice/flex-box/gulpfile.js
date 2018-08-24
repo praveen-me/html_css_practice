@@ -14,4 +14,9 @@ gulp.task('styles', function() {
     gulp.src('nesting_flex/media/style/style_nesting_flex.css')
     .pipe(autoprefixer())
     .pipe(gulp.dest('build'));
+
+    gulp.src('pricing_grid/style/style_pricing_grid.css')
+    .pipe(autoprefixer())
+    .pipe(gulp.dest('build'));
+
 });
