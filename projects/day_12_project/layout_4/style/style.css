@@ -33,13 +33,14 @@ html {
 header {
     display: grid;
     background-color: #33566a;
+    grid-template-rows: 10vh;
 }
 
 /* Navigation */
 .grid {
     display: grid;
     grid-template-columns: 200px auto 200px;
-    grid-template-rows: 520px;
+    grid-template-rows: 80vh;
 }
 
 nav {
@@ -55,9 +56,9 @@ main {
 }
 
 footer {
-    height: 69px;
     background: lime;
     display: grid;
+    grid-template-rows: 10vh;
 }
 
 footer h1 {
