@@ -19,4 +19,8 @@ gulp.task('styles', function() {
     .pipe(autoprefixer())
     .pipe(gulp.dest('build'));
 
+    gulp.src('mobile_flex_layout/style/style_mobile_layout.css')
+    .pipe(autoprefixer())
+    .pipe(gulp.dest('build'));
+
 });
