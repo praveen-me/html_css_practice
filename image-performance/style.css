@@ -1,0 +1,14 @@
+body {
+	background: yellow;
+}
+
+h1 {
+	color: red;
+}
+
+@media only screen and (min-width: 500px) {
+	body {
+		background: url('./large-background.jpg') no-repeat center center fixed;
+		background-size: cover;
+	}
+}
